@@ -1,6 +1,6 @@
 import { FC } from 'react';
-import styles from '../../../styles/main/content.module.scss';
-import { products } from '../../../utils/consts';
+import styles from '../../../../styles/main/content.module.scss';
+import { products } from '../../../../utils/consts';
 import ContentBlock from './block';
 
 const Content: FC = () => {

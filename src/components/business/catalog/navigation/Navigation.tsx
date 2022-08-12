@@ -1,9 +1,9 @@
 import classNames from 'classnames';
 import { FC, useEffect, useRef, useState } from 'react';
-import styles from '../../../styles/catalog/catalogNavigation.module.scss';
+import styles from '../../../../styles/catalog/catalogNavigation.module.scss';
 import { NavBar } from './NavBar';
-import { sorts } from '../../../utils/consts';
-import searchIcon from '../../../assets/icon-search.png';
+import { sorts } from '../../../../utils/consts';
+import searchIcon from '../../../../assets/icon-search.png';
 
 interface INavigation {}
 

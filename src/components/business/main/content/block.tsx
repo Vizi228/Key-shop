@@ -1,6 +1,6 @@
 import { FC } from 'react';
-import styles from '../../../styles/main/content.module.scss';
-import img from '../../../assets/main-img1.jpg';
+import styles from '../../../../styles/main/content.module.scss';
+import img from '../../../../assets/main-img1.jpg';
 
 const ContentBlock: FC = () => {
   return (

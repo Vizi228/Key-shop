@@ -1,6 +1,6 @@
 import classNames from 'classnames';
 import { FC, useEffect, useRef, useState } from 'react';
-import styles from '../../../styles/catalog/catalogNavigation.module.scss';
+import styles from '../../../../styles/catalog/catalogNavigation.module.scss';
 
 interface INavBlock {
   name: string;

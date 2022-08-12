@@ -1,5 +1,5 @@
 import { Dispatch, FC, SetStateAction } from 'react';
-import { slides } from '../../../utils/consts';
+import { slides } from '../../../../utils/consts';
 
 interface IDots {
   currentSlide: number;

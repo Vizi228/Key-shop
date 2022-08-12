@@ -1,8 +1,8 @@
 import { FC } from 'react';
-import styles from '../../styles/main/main.module.scss';
+import styles from '../../../styles/main/main.module.scss';
 import Content from './content';
 import Slider from './slider';
-import mainBackground from '../../assets/main-background.jpg';
+import mainBackground from '../../../assets/main-background.jpg';
 
 const Main: FC = () => {
   return (

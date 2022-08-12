@@ -1,6 +1,6 @@
 import { FC, useEffect, useRef, useState } from 'react';
-import styles from '../../../styles/main/slider.module.scss';
-import { slides } from '../../../utils/consts';
+import styles from '../../../../styles/main/slider.module.scss';
+import { slides } from '../../../../utils/consts';
 import Dots from './dots';
 import Slide from './slide';
 

@@ -1,6 +1,6 @@
 import { FC } from 'react';
-import styles from '../../../styles/main/slider.module.scss';
-import img from '../../../assets/slide-img1.jpg';
+import styles from '../../../../styles/main/slider.module.scss';
+import img from '../../../../assets/slide-img1.jpg';
 
 interface ISlide {
   currentSlide: number;

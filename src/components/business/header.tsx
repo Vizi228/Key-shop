@@ -1,11 +1,11 @@
-import styles from '../styles/header.module.scss';
+import styles from '../../styles/header.module.scss';
 import { FC, useState } from 'react';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
-import logo from '../assets/logo.png';
-import profileLogo from '../assets/profile-logo.svg';
-import burgerOpen from '../assets/burger-menu.svg';
-import burgerClose from '../assets/close-burger.png';
+import logo from '../../assets/logo.png';
+import profileLogo from '../../assets/profile-logo.svg';
+import burgerOpen from '../../assets/burger-menu.svg';
+import burgerClose from '../../assets/close-burger.png';
 
 const Header: FC = () => {
   const [isBurger, setIsBurger] = useState(false);
@@ -27,7 +27,9 @@ const Header: FC = () => {
           </Link>
         </ul>
         <div className={styles.login}>
-          <img src={profileLogo} alt="profileLogo" />
+          <Link to="/login">
+            <img src={profileLogo} alt="profileLogo" />
+          </Link>
         </div>
       </div>
       <div className={styles.burger} onClick={() => setIsBurger(!isBurger)}>

@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import styles from '../../styles/catalog/catalog.module.scss';
+import styles from '../../../styles/catalog/catalog.module.scss';
 import CatalogContent from './Content/CatalogContent';
 import { Navigation } from './navigation/Navigation';
 

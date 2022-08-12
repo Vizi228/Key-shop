@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import styles from '../../../styles/catalog/catalogContent.module.scss';
+import styles from '../../../../styles/catalog/catalogContent.module.scss';
 import ContentItems from './contentItems';
 
 const CatalogContent: FC = () => {

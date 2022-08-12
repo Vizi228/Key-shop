@@ -1,6 +1,6 @@
 import { FC } from 'react';
-import styles from '../../../styles/catalog/catalogContent.module.scss';
-import { cards } from '../../../utils/consts';
+import styles from '../../../../styles/catalog/catalogContent.module.scss';
+import { cards } from '../../../../utils/consts';
 import ContentItemBlock from './contentItemBlock';
 
 const ContentItems: FC = () => {
